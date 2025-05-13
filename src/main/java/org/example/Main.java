@@ -41,5 +41,8 @@ public class Main {
 
         books.stream().sorted((b1, b2)-> b1.getPrice()- b2.getPrice())
                 .forEach(System.out::println);
+
+        // nothing
+        System.out.println("a");
     }
 }
